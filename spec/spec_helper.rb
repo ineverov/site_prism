@@ -6,7 +6,7 @@ end
 require 'capybara'
 require 'capybara/dsl'
 require 'selenium-webdriver'
-
+require 'byebug'
 $LOAD_PATH << './test_site'
 $LOAD_PATH << './lib'
 
